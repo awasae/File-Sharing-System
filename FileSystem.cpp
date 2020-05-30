@@ -81,14 +81,14 @@ int main()
 	ct6->addCommand(ct2);
 
 
-	string grep			= "grep";
+	string grep         = "grep";
 	string macroCommand = "rn";
 	string copy         = "copy";
 	string display      = "ds";
 	string cat          = "cat";
-	string remove		= "rm";
-	string list			= "ls";
-	string touch		= "touch";
+	string remove       = "rm";
+	string list	    = "ls";
+	string touch	    = "touch";
 
 	cp->addCommand(touch, ct);
 	cp->addCommand(list, ct1);
